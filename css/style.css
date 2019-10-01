@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+
+.about{
+	height: 100px;
+	background-color:mediumpurple;
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	line-height: 100px;
+}
+.newsblock{
+	width: 80vw;
+	display: flex;
+	justify-content:space-around;
+	margin:auto;
+	flex-wrap: wrap;		
+}
+
+.n1,.n2,.n3,.n4{
+	height: 300px;
+	width: 600px;
+	border: 2px solid black;
+	background-color: red;
+	padding: 15px;
+	margin: 8px;
+	font-size: 3.2em;
+	text-align: center;
+}
+
+.copyright {
+	height: 100px;
+	background-color: mediumpurple;
+    font-size: 1.5em; 
+	padding-left: 20px;
+	line-height: 100px;
+	color:white;
+	text-align: left;
+}
+a {
+	position: absolute;
+	color: white;
+	text-decoration: unset;
+	right: 20px;
+	
+}
+a:hover{
+	color: green;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+@media screen and (min-width: 600px){
+	.newsblock{
+		width: 1300px;		
+	}
+}
